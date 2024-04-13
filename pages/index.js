@@ -12,10 +12,10 @@ export default function Home({ featuredProduct, newProducts, collectionProduct1,
 
       <Hero product={featuredProduct} />
 
-      <hr class="my-1 h-px border-0 bg-gray-300" />
+      <hr className="my-1 h-px border-0 bg-gray-300" />
 
       <Products products={newProducts} />
-      <hr class="my-1 h-px border-0 bg-gray-300" />
+      <hr className="my-1 h-px border-0 bg-gray-300" />
       <Collection product={collectionProduct1} />
     </main>
   )

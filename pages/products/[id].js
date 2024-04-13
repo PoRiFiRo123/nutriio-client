@@ -51,7 +51,7 @@ export default function ProductPage({ product }) {
                 {product?.details}
               </p>
             </div>
-            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 my-3">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 my-3">
               <div>
                 <label className="text-text font-semibold">Brand</label>
                 <p className="mt-2 text-accent list-disc list-inside">
@@ -67,7 +67,7 @@ export default function ProductPage({ product }) {
               </div>
             </div>
 
-            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 my-3">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 my-3">
               <div>
                 <label className="text-text font-semibold">Sizes</label>
                 <p className="mt-2 text-accent list-disc list-inside">

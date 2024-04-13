@@ -185,7 +185,7 @@ export async function getServerSideProps() {
 //                     <div className="mt-1.5 flex flex-col   items-center justify-between text-text">
 //                       <p className="tracking-wide text-primary text-sm md:text-md">ksh. {formatPrice(product.price)}</p>
 
-//                       <div class="col-span-12 text-center w-full mt-3">
+//                       <div className="col-span-12 text-center w-full mt-3">
 //                         <button
 //                           onClick={() => {addProduct(product._id); toast.success('Item added to cart!')}}
 //                           className="disabled block rounded bg-secondary px-5 py-3 text-md text-text w-full transition hover:bg-purple-300"
